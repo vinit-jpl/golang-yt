@@ -27,3 +27,6 @@ highScores = append(highScores, 555, 666, 777)
 The append function is special. When you append elements to a slice, Go checks if the underlying array has enough capacity to hold the new elements:
 If the capacity is sufficient, the new elements are added, and the slice's length is updated.
 If the capacity is insufficient, a new, larger array is allocated. The data from the original array is copied into the new array, and the new elements are added. This process is known as memory reallocation.
+
+
+## removing a value from a slice based on index
